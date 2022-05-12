@@ -1,0 +1,11 @@
+<div>
+  <h2>Demo Form: Sku</h2>
+  <form #f="ngForm" (ngSubmit)="onSubmit(f.value)">
+    <div class="field">
+      <label>SKU</label><br />
+      <input type="text" name="sku" ngModel />
+    </div>
+    <br />
+    <button type="submit">Submit</button>
+  </form>
+</div>
